@@ -12,6 +12,8 @@ matrix:
       env: DEPENDENCIES='dev'
     - php: 5.6
       env: SMOKE='true'
+    - php: 7
+      env: SMOKE='true'
     - php: hhvm
       env: SMOKE='true'
     - php: hhvm-nightly
